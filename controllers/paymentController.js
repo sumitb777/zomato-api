@@ -1,3 +1,4 @@
+require('dotenv').config();
 const Razorpay = require("razorpay");
 var crypto = require("crypto");
 const keyid = process.env.keyid;

@@ -11,7 +11,7 @@ const mongopass = process.env.databasepass
     ;
 
 
-const MONGODB_URI = `mongodb+srv://admin:admin123@zomato-cluster.pxfl14v.mongodb.net/zomato-clone`;
+const MONGODB_URI = `mongodb+srv://admin:${mongopass}@zomato-cluster.pxfl14v.mongodb.net/zomato-clone`;
 app.use(cors());
 
 app.use(express.json()); // json format
