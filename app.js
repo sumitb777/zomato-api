@@ -7,7 +7,7 @@ const mongoose = require("mongoose");
 const cors = require("cors");
 
 const port = process.env.port || 4000;
-const mongopass = process.env.databasepass
+const mongopass = process.env.mongopass
     ;
 
 
