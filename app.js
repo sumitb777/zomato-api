@@ -5,10 +5,9 @@ const app = express();
 const appRoutes = require('./routes/appRoutes');
 const mongoose = require("mongoose");
 const cors = require("cors");
-
-const port = process.env.port || 4000;
 const mongopass = process.env.mongopass
-    ;
+const port = process.env.port || 4000;
+
 
 
 const MONGODB_URI = `mongodb+srv://admin:${mongopass}@zomato-cluster.pxfl14v.mongodb.net/zomato-clone`;
